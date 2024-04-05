@@ -16,10 +16,43 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <img src="./images/logo/Booki.png" alt="Image du logo de Booki">
+            <nav>
+                <a href="#hebergements">Hébergements</a>
+                <a href="#activites">Activités</a>
+            </nav>
+        </header>
         <main>
+            <section id="informations" class="informations">
+                <div class="informations-title">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
+                <form id="search-location" method="get" action="">
+                    <label for="get-location"><i class="fa-solid fa-location-dot"></i></label>
+                    <input type="search" name="location" id="get-location" placeholder="Marseille, France">
+                    <button type="submit">Rechercher</button>
+                </form>
+                <form id="filter-location" method="get" action="">
+                    Filtres
+                    <input type="checkbox" name="cheap" id="cheap"> <label for="cheap"><i
+                            class="fa-solid fa-money-bill-wave"></i>Économique</label>
+                    <input type="checkbox" name="family" id="family"> <label for="family"><i
+                            class="fa-solid fa-person"></i>Familial</label>
+                    <input type="checkbox" name="romantic" id="romantic"> <label for="romantic"><i
+                            class="fa-solid fa-heart"></i>Romantique</label>
+                    <input type="checkbox" name="highlights" id="highlights"> <label for="highlights"><i
+                            class="fa-solid fa-fire"></i>Nos pépites</label>
+                </form>
+                <div class="infobar">
+                    <i class="fa-solid fa-info"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+
+            </section>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements" class="hebergements">
 
                 </section>
                 <section class="populaires">
@@ -30,7 +63,8 @@
                     <div class="populaires-cards">
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/emile-guillemot.jpg"
+                                    alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Le soleil du matin</h3>
@@ -49,7 +83,8 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/aw-creative.jpg"
+                                    alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
@@ -68,7 +103,8 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/febrian-zakaria2.jpg"
+                                    alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Bleu et Blanc</h3>
@@ -88,6 +124,9 @@
                     </div>
                 </section>
             </div>
+            <section id="activites" class="activities">
+
+            </section>
         </main>
         <footer></footer>
     </div>
