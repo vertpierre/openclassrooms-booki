@@ -370,7 +370,7 @@ label {
 }
 
 #accommodations .card-link {
-    flex-basis: calc((100% / 3) - (30px / 3) * 2);
+    flex-basis: calc(33.3% - (30px / 3) * 2);
 }
 
 #accommodations .card {
@@ -449,7 +449,7 @@ label {
 /*********** activities ***********/
 
 #activities .card-link {
-    flex-basis: calc((100% / 4) - (30px / 4) * 3);
+    flex-basis: calc(25% - (30px / 4) * 3);
 }
 
 #activities .card {
@@ -499,7 +499,7 @@ label {
         display: flex;
         flex-direction: column;
     }
- 
+
     #accommodations,
     #popular {
         width: 100%;
@@ -510,7 +510,7 @@ label {
     }
 
     #popular .card-link {
-        flex-basis: calc((100% / 3) - (30px / 3) * 2);
+        flex-basis: calc(33.3% - (30px / 3) * 2);
     }
 
     #activities .card-image {
@@ -614,7 +614,7 @@ label {
 
     .label-filter-location {
         flex-grow: 1;
-        flex-basis: calc((100% / 2) - (10px / 2));
+        flex-basis: calc(50% - (10px / 2));
         font-size: 14px;
     }
 
