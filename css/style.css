@@ -432,8 +432,8 @@ label {
 }
 
 #popular .card-image {
-    width: calc((100% / 3) * 0.9);
-    min-width: calc((100% / 3) * 0.9);
+    width: 33.3%;
+    min-width: 33.3%;
     border-top-left-radius: calc(var(--border-radius) - var(--card-padding));
     border-bottom-left-radius: calc(var(--border-radius) - var(--card-padding));
 }
@@ -479,7 +479,7 @@ label {
 }
 
 .footer-links {
-    width: calc(100% / 3);
+    width: 33.3%;
     display: flex;
     flex-direction: column;
     padding: 20px;
